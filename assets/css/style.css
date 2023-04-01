@@ -79,7 +79,7 @@
     background-image: linear-gradient(to right,
             red,
             #F53838 50%,
-            orange );
+            orange);
     display: block;
     position: absolute;
     bottom: -3px;
@@ -104,7 +104,8 @@
     border: none;
     background-color: #ffff;
 }
-.nav-item{
+
+.nav-item {
     display: flex;
     align-items: center;
 }
@@ -357,7 +358,9 @@
     width: 40% !important;
     text-align: left !important;
 }
-
+.translate_rect{
+    transform: translateY(45%);
+}
 .btn2 {
     width: 60px;
     height: 60px;
@@ -390,7 +393,7 @@
 
 .rect_shadow {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 100%;
     top: 33px;
     left: 31px;
@@ -422,6 +425,10 @@ footer a {
 
 .mx340 {
     max-width: 340px;
+}
+
+.bg_color {
+    background-color: #F8F8F8;
 }
 
 .footer_head {
